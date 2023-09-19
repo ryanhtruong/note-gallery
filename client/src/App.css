@@ -1,0 +1,60 @@
+.App {
+  background-color: #282c34;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  word-break: break-word;
+  color: white;
+}
+
+.Form {
+  background-color: #2a354a;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+  width: 33%;
+  max-width: 100% - 12px;
+  font-size: calc(10px + 1vmin);
+}
+
+.Note {
+  background-color: #2a354a;
+  border-radius: 12px;
+  max-width: 30%;
+  margin: 6vw;
+  margin-top: 2vw;
+  font-size: calc(10px + 1.5vmin);
+  padding: 4vw;
+}
+
+.Gallery {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: monospace;
+}
+
+
+header {
+  background-color: #2a354a;
+  display: flex;
+  padding: 12px;
+}
+
+p {
+  font-size: calc(10 + 1vmin);
+  line-height: 5.5vmin;
+  padding: 12px;
+}
+
+p.GuestName {
+  border-top: 2px #282c34;;
+  line-height: 0vmin;
+  font-style: italic;
+  text-align: right;
+  vertical-align: bottom;
+}
